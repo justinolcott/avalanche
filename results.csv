@@ -1,0 +1,743 @@
+,,model,accuracy,mse
+RandomForestClassifier,13,RandomForestClassifier(max_depth=13),0.6990291262135923,0.3592233009708738
+XGBClassifier,16,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=16, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6925566343042071,0.3559870550161812
+GradientBoostingClassifier,5,GradientBoostingClassifier(max_depth=5),0.6925566343042071,0.36245954692556637
+XGBClassifier,2,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=2, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6893203883495146,0.3592233009708738
+RandomForestClassifier,8,RandomForestClassifier(max_depth=8),0.6893203883495146,0.34951456310679613
+RandomForestClassifier,11,RandomForestClassifier(max_depth=11),0.686084142394822,0.35275080906148865
+XGBClassifier,6,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=6, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.686084142394822,0.36245954692556637
+RandomForestClassifier,6,RandomForestClassifier(max_depth=6),0.686084142394822,0.36245954692556637
+LogisticRegression,sag,"LogisticRegression(max_iter=10000, solver='sag')",0.6828478964401294,0.3656957928802589
+LogisticRegression,newton-cg,"LogisticRegression(max_iter=10000, solver='newton-cg')",0.6828478964401294,0.3656957928802589
+RandomForestClassifier,15,RandomForestClassifier(max_depth=15),0.6828478964401294,0.3656957928802589
+XGBClassifier,4,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=4, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6828478964401294,0.37216828478964403
+LogisticRegression,lbfgs,LogisticRegression(max_iter=10000),0.6828478964401294,0.3656957928802589
+XGBClassifier,17,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=17, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6828478964401294,0.3559870550161812
+RandomForestClassifier,5,RandomForestClassifier(max_depth=5),0.6828478964401294,0.37540453074433655
+DecisionTreeRegressor,7,DecisionTreeRegressor(max_depth=7),0.6828478964401294,0.35770733180026565
+LogisticRegression,saga,"LogisticRegression(max_iter=10000, solver='saga')",0.6828478964401294,0.3656957928802589
+XGBClassifier,14,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=14, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6828478964401294,0.3559870550161812
+XGBClassifier,5,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=5, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6828478964401294,0.37540453074433655
+RandomForestClassifier,3,RandomForestClassifier(max_depth=3),0.6828478964401294,0.4045307443365696
+DecisionTreeClassifier,8,DecisionTreeClassifier(max_depth=8),0.6796116504854369,0.4045307443365696
+DecisionTreeClassifier,4,DecisionTreeClassifier(max_depth=4),0.6796116504854369,0.36893203883495146
+XGBClassifier,10,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=10, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6796116504854369,0.36893203883495146
+RandomForestRegressor,9,RandomForestRegressor(max_depth=9),0.6796116504854369,0.3090274816544283
+RandomForestClassifier,9,RandomForestClassifier(max_depth=9),0.6763754045307443,0.35275080906148865
+RandomForestClassifier,19,RandomForestClassifier(max_depth=19),0.6763754045307443,0.35275080906148865
+RandomForestClassifier,16,RandomForestClassifier(max_depth=16),0.6763754045307443,0.35275080906148865
+XGBClassifier,19,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=19, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6763754045307443,0.36245954692556637
+RandomForestClassifier,7,RandomForestClassifier(max_depth=7),0.6763754045307443,0.36245954692556637
+RandomForestClassifier,12,RandomForestClassifier(max_depth=12),0.6763754045307443,0.37216828478964403
+XGBClassifier,9,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=9, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6763754045307443,0.35275080906148865
+XGBClassifier,3,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=3, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6731391585760518,0.3559870550161812
+DecisionTreeClassifier,10,DecisionTreeClassifier(max_depth=10),0.6731391585760518,0.459546925566343
+RandomForestClassifier,14,RandomForestClassifier(max_depth=14),0.6731391585760518,0.3851132686084142
+XGBRegressor,1,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=1, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6731391585760518,0.28099857868383954
+RandomForestRegressor,6,RandomForestRegressor(max_depth=6),0.6731391585760518,0.31069495372260764
+RandomForestClassifier,17,RandomForestClassifier(max_depth=17),0.6731391585760518,0.37540453074433655
+RandomForestClassifier,4,RandomForestClassifier(max_depth=4),0.6731391585760518,0.4045307443365696
+RandomForestRegressor,18,RandomForestRegressor(max_depth=18),0.6699029126213593,0.30347134990420077
+RandomForestRegressor,16,RandomForestRegressor(max_depth=16),0.6699029126213593,0.3051460210947442
+XGBClassifier,18,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=18, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6699029126213593,0.3786407766990291
+RandomForestRegressor,19,RandomForestRegressor(max_depth=19),0.6699029126213593,0.30591447854906345
+XGBClassifier,8,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=8, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6699029126213593,0.3786407766990291
+RandomForestRegressor,8,RandomForestRegressor(max_depth=8),0.6699029126213593,0.3062494765758047
+RandomForestRegressor,14,RandomForestRegressor(max_depth=14),0.6699029126213593,0.3042889341154572
+RandomForestRegressor,15,RandomForestRegressor(max_depth=15),0.6699029126213593,0.3051609779173055
+RandomForestRegressor,7,RandomForestRegressor(max_depth=7),0.6699029126213593,0.3067093595690297
+DecisionTreeClassifier,7,DecisionTreeClassifier(max_depth=7),0.6699029126213593,0.4077669902912621
+XGBRegressor,4,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=4, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6699029126213593,0.3166298129846341
+XGBClassifier,12,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=12, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6699029126213593,0.3786407766990291
+XGBRegressor,10,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=10, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6699029126213593,0.33284335522602265
+RandomForestRegressor,13,RandomForestRegressor(max_depth=13),0.6699029126213593,0.3024167268689448
+RandomForestRegressor,5,RandomForestRegressor(max_depth=5),0.6699029126213593,0.3157191825991252
+RandomForestRegressor,4,RandomForestRegressor(max_depth=4),0.6699029126213593,0.320340549849491
+RandomForestRegressor,17,RandomForestRegressor(max_depth=17),0.6699029126213593,0.3067122633048899
+XGBClassifier,13,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=13, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6699029126213593,0.3883495145631068
+DecisionTreeRegressor,5,DecisionTreeRegressor(max_depth=5),0.6699029126213593,0.38179203116086396
+DecisionTreeRegressor,8,DecisionTreeRegressor(max_depth=8),0.6666666666666666,0.38162175758880856
+DecisionTreeRegressor,9,DecisionTreeRegressor(max_depth=9),0.6666666666666666,0.4193091522010894
+RandomForestRegressor,12,RandomForestRegressor(max_depth=12),0.6666666666666666,0.2996365749387768
+RandomForestClassifier,10,RandomForestClassifier(max_depth=10),0.6666666666666666,0.37216828478964403
+DecisionTreeClassifier,5,DecisionTreeClassifier(max_depth=5),0.6666666666666666,0.3818770226537217
+RandomForestRegressor,11,RandomForestRegressor(max_depth=11),0.6666666666666666,0.30639303163775605
+XGBClassifier,15,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=15, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6666666666666666,0.3818770226537217
+DecisionTreeClassifier,6,DecisionTreeClassifier(max_depth=6),0.6666666666666666,0.4368932038834951
+XGBRegressor,5,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=5, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6666666666666666,0.3331064806583728
+RandomForestRegressor,10,RandomForestRegressor(max_depth=10),0.6666666666666666,0.3125770615746611
+RandomForestClassifier,18,RandomForestClassifier(max_depth=18),0.6634304207119741,0.3851132686084142
+XGBRegressor,2,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=2, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6634304207119741,0.293604138016844
+XGBRegressor,7,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=7, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6634304207119741,0.32649078987567853
+DecisionTreeClassifier,9,DecisionTreeClassifier(max_depth=9),0.6634304207119741,0.4401294498381877
+XGBRegressor,3,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=3, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6601941747572816,0.3133130977800746
+XGBRegressor,9,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=9, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6601941747572816,0.3371666255949915
+XGBClassifier,11,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=11, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.6601941747572816,0.3883495145631068
+XGBRegressor,8,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=8, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6601941747572816,0.3303162605542649
+XGBClassifier,7,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=7, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.656957928802589,0.39158576051779936
+XGBClassifier,1,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=1, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              multi_strategy=None, n_estimators=None, n_jobs=None,
+              num_parallel_tree=None, objective='multi:softprob', ...)",0.656957928802589,0.4110032362459547
+DecisionTreeRegressor,4,DecisionTreeRegressor(max_depth=4),0.656957928802589,0.3556212033952159
+XGBRegressor,12,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=12, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6537216828478964,0.34721564769683516
+DecisionTreeClassifier,3,DecisionTreeClassifier(max_depth=3),0.6537216828478964,0.45307443365695793
+XGBRegressor,6,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6504854368932039,0.3386699923895806
+DecisionTreeRegressor,6,DecisionTreeRegressor(max_depth=6),0.6504854368932039,0.42243379682997767
+XGBRegressor,17,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=17, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6504854368932039,0.36038368301721163
+DecisionTreeRegressor,11,DecisionTreeRegressor(max_depth=11),0.6472491909385113,0.4295707025353089
+XGBRegressor,18,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=18, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6472491909385113,0.3646508333195734
+XGBRegressor,19,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=19, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6472491909385113,0.3651531291875906
+XGBRegressor,15,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=15, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6472491909385113,0.35481844918618644
+DecisionTreeClassifier,12,DecisionTreeClassifier(max_depth=12),0.6440129449838188,0.4627831715210356
+XGBRegressor,11,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=11, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6440129449838188,0.3405991801698858
+RandomForestRegressor,3,RandomForestRegressor(max_depth=3),0.6440129449838188,0.3421242999153742
+LogisticRegression,newton-cholesky,"LogisticRegression(max_iter=10000, solver='newton-cholesky')",0.6440129449838188,0.5016181229773463
+KNeighborsRegressor,"(3, 'manhattan')","KNeighborsRegressor  (3, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.6440129449838188,0.3976986695433297
+XGBRegressor,14,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=14, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6407766990291263,0.3595184860958132
+DecisionTreeRegressor,3,DecisionTreeRegressor(max_depth=3),0.6407766990291263,0.3998542913299607
+DecisionTreeRegressor,12,DecisionTreeRegressor(max_depth=12),0.6407766990291263,0.5249202001462538
+XGBRegressor,13,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=13, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6375404530744336,0.3690196480203845
+LogisticRegression,liblinear,"LogisticRegression(max_iter=10000, solver='liblinear')",0.6343042071197411,0.511326860841424
+DecisionTreeClassifier,16,DecisionTreeClassifier(max_depth=16),0.627831715210356,0.540453074433657
+KNeighborsRegressor,"(3, 'euclidean')","KNeighborsRegressor  (3, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.627831715210356,0.42035239122617774
+DecisionTreeRegressor,18,DecisionTreeRegressor(max_depth=18),0.627831715210356,0.5242740066408436
+DecisionTreeRegressor,10,DecisionTreeRegressor(max_depth=10),0.627831715210356,0.4658389591510571
+KNeighborsRegressor,"(1, 'manhattan')","KNeighborsRegressor  (1, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.6245954692556634,0.517799352750809
+DecisionTreeClassifier,17,DecisionTreeClassifier(max_depth=17),0.6245954692556634,0.511326860841424
+DecisionTreeRegressor,16,DecisionTreeRegressor(max_depth=16),0.6245954692556634,0.5847042007093767
+KNeighborsRegressor,"(4, 'euclidean')","KNeighborsRegressor  (4, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.6245954692556634,0.3948220064724919
+XGBRegressor,16,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=16, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...)",0.6245954692556634,0.36211521358488075
+DecisionTreeClassifier,14,DecisionTreeClassifier(max_depth=14),0.6213592233009708,0.5210355987055016
+DecisionTreeClassifier,11,DecisionTreeClassifier(max_depth=11),0.6213592233009708,0.5210355987055016
+DecisionTreeClassifier,13,DecisionTreeClassifier(max_depth=13),0.6213592233009708,0.5566343042071198
+KNeighborsClassifier,4,KNeighborsClassifier(n_neighbors=4),0.6213592233009708,0.5631067961165048
+DecisionTreeRegressor,13,DecisionTreeRegressor(max_depth=13),0.6181229773462783,0.4716194171041252
+DecisionTreeRegressor,14,DecisionTreeRegressor(max_depth=14),0.6181229773462783,0.502521567521198
+DecisionTreeRegressor,15,DecisionTreeRegressor(max_depth=15),0.6181229773462783,0.5808038643496475
+DecisionTreeRegressor,19,DecisionTreeRegressor(max_depth=19),0.6148867313915858,0.5657759812596678
+DecisionTreeClassifier,18,DecisionTreeClassifier(max_depth=18),0.6148867313915858,0.4919093851132686
+KNeighborsClassifier,3,KNeighborsClassifier(n_neighbors=3),0.6148867313915858,0.5792880258899676
+KNeighborsRegressor,"(5, 'euclidean')","KNeighborsRegressor  (5, euclidean)    KNeighborsRegressor(metric='euclidean')
+Name: model, dtype: object",0.6116504854368932,0.4155339805825243
+KNeighborsRegressor,"(1, 'euclidean')","KNeighborsRegressor  (1, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.6116504854368932,0.5372168284789643
+KNeighborsRegressor,"(5, 'manhattan')","KNeighborsRegressor  (5, manhattan)    KNeighborsRegressor(metric='manhattan')
+Name: model, dtype: object",0.6116504854368932,0.42381877022653724
+KNeighborsClassifier,1,KNeighborsClassifier(n_neighbors=1),0.6116504854368932,0.5372168284789643
+KNeighborsRegressor,"(1, 'chebyshev')","KNeighborsRegressor  (1, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.6084142394822006,0.5307443365695793
+DecisionTreeClassifier,15,DecisionTreeClassifier(max_depth=15),0.6084142394822006,0.5145631067961165
+DecisionTreeRegressor,17,DecisionTreeRegressor(max_depth=17),0.6084142394822006,0.49935097808117535
+KNeighborsClassifier,5,KNeighborsClassifier(),0.6051779935275081,0.5598705501618123
+DecisionTreeClassifier,19,DecisionTreeClassifier(max_depth=19),0.6019417475728155,0.540453074433657
+RandomForestClassifier,2,RandomForestClassifier(max_depth=2),0.6019417475728155,0.46601941747572817
+KNeighborsRegressor,"(4, 'manhattan')","KNeighborsRegressor  (4, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.6019417475728155,0.4148462783171521
+KNeighborsRegressor,"(2, 'euclidean')","KNeighborsRegressor  (2, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.598705501618123,0.41019417475728154
+KNeighborsRegressor,"(2, 'manhattan')","KNeighborsRegressor  (2, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5954692556634305,0.4134304207119741
+KNeighborsRegressor,"(6, 'euclidean')","KNeighborsRegressor  (6, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5954692556634305,0.41711614527148505
+KNeighborsRegressor,"(6, 'manhattan')","KNeighborsRegressor  (6, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5922330097087378,0.4209816612729234
+KNeighborsRegressor,"(3, 'chebyshev')","KNeighborsRegressor  (3, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5922330097087378,0.41172240201366417
+KNeighborsRegressor,"(5, 'chebyshev')","KNeighborsRegressor  (5, chebyshev)    KNeighborsRegressor(metric='chebyshev')
+Name: model, dtype: object",0.5889967637540453,0.45333333333333337
+KNeighborsClassifier,6,KNeighborsClassifier(n_neighbors=6),0.5889967637540453,0.5566343042071198
+KNeighborsRegressor,"(4, 'chebyshev')","KNeighborsRegressor  (4, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5889967637540453,0.4308252427184466
+KNeighborsRegressor,"(7, 'manhattan')","KNeighborsRegressor  (7, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5857605177993528,0.43894062479360685
+KNeighborsClassifier,2,KNeighborsClassifier(n_neighbors=2),0.5857605177993528,0.5954692556634305
+KNeighborsRegressor,"(2, 'chebyshev')","KNeighborsRegressor  (2, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5825242718446602,0.4344660194174757
+KNeighborsRegressor,"(8, 'manhattan')","KNeighborsRegressor  (8, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5825242718446602,0.44326456310679613
+KNeighborsClassifier,9,KNeighborsClassifier(n_neighbors=9),0.5825242718446602,0.6019417475728155
+AdaBoostClassifier,2,AdaBoostClassifier(n_estimators=2),0.5792880258899676,0.47896440129449835
+AdaBoostClassifier,3,AdaBoostClassifier(n_estimators=3),0.5792880258899676,0.47896440129449835
+KNeighborsClassifier,8,KNeighborsClassifier(n_neighbors=8),0.5792880258899676,0.5760517799352751
+RandomForestRegressor,2,RandomForestRegressor(max_depth=2),0.5792880258899676,0.3994648505064367
+KNeighborsRegressor,"(10, 'manhattan')","KNeighborsRegressor  (10, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5792880258899676,0.44537216828478965
+KNeighborsClassifier,7,KNeighborsClassifier(n_neighbors=7),0.5760517799352751,0.6084142394822006
+DecisionTreeClassifier,2,DecisionTreeClassifier(max_depth=2),0.5760517799352751,0.48220064724919093
+KNeighborsRegressor,"(9, 'manhattan')","KNeighborsRegressor  (9, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5760517799352751,0.43980982060809465
+KNeighborsRegressor,"(9, 'euclidean')","KNeighborsRegressor  (9, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5760517799352751,0.45327420192576606
+GaussianNB,,GaussianNB(),0.56957928802589,0.5598705501618123
+DecisionTreeRegressor,2,DecisionTreeRegressor(max_depth=2),0.56957928802589,0.4444889487442106
+KNeighborsRegressor,"(7, 'euclidean')","KNeighborsRegressor  (7, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.56957928802589,0.4285714285714286
+MLPRegressor,"(10, 10, 10, 10, 10, 10)","MLPRegressor  (10, 10, 10, 10, 10, 10)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.56957928802589,0.4319073471307426
+KNeighborsRegressor,"(11, 'manhattan')","KNeighborsRegressor  (11, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5663430420711975,0.4552141004038621
+KNeighborsRegressor,"(8, 'chebyshev')","KNeighborsRegressor  (8, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5663430420711975,0.49812904530744334
+KNeighborsRegressor,"(8, 'euclidean')","KNeighborsRegressor  (8, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5663430420711975,0.43775283171521034
+KNeighborsRegressor,"(10, 'euclidean')","KNeighborsRegressor  (10, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5663430420711975,0.4616828478964402
+KNeighborsRegressor,"(12, 'manhattan')","KNeighborsRegressor  (12, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5663430420711975,0.47179521754764475
+AdaBoostClassifier,10,AdaBoostClassifier(n_estimators=10),0.5631067961165048,0.47572815533980584
+AdaBoostClassifier,19,AdaBoostClassifier(n_estimators=19),0.5631067961165048,0.47572815533980584
+AdaBoostClassifier,7,AdaBoostClassifier(n_estimators=7),0.5631067961165048,0.47572815533980584
+AdaBoostClassifier,6,AdaBoostClassifier(n_estimators=6),0.5631067961165048,0.47572815533980584
+AdaBoostClassifier,11,AdaBoostClassifier(n_estimators=11),0.5631067961165048,0.47572815533980584
+KNeighborsClassifier,10,KNeighborsClassifier(n_neighbors=10),0.5631067961165048,0.6925566343042071
+AdaBoostClassifier,4,AdaBoostClassifier(n_estimators=4),0.5631067961165048,0.5436893203883495
+AdaBoostClassifier,14,AdaBoostClassifier(n_estimators=14),0.5631067961165048,0.47572815533980584
+AdaBoostClassifier,15,AdaBoostClassifier(n_estimators=15),0.5631067961165048,0.47572815533980584
+AdaBoostClassifier,18,AdaBoostClassifier(n_estimators=18),0.5631067961165048,0.47572815533980584
+SVR,10,SVR(C=10),0.5598705501618123,0.4944555756623925
+KNeighborsRegressor,"(9, 'chebyshev')","KNeighborsRegressor  (9, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5598705501618123,0.5046546006632306
+SVR,11,SVR(C=11),0.5598705501618123,0.4898474641829738
+KNeighborsRegressor,"(12, 'euclidean')","KNeighborsRegressor  (12, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5598705501618123,0.502854189140597
+SVR,12,SVR(C=12),0.5598705501618123,0.48711156371539704
+SVR,8,SVR(C=8),0.5566343042071198,0.5026238366521832
+KNeighborsRegressor,"(13, 'euclidean')","KNeighborsRegressor  (13, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5566343042071198,0.5070948469006721
+SVR,9,SVR(C=9),0.5566343042071198,0.4997812284895921
+KNeighborsRegressor,"(6, 'chebyshev')","KNeighborsRegressor  (6, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5566343042071198,0.4717727436174039
+KNeighborsClassifier,12,KNeighborsClassifier(n_neighbors=12),0.5566343042071198,0.7249190938511327
+KNeighborsClassifier,13,KNeighborsClassifier(n_neighbors=13),0.5566343042071198,0.7346278317152104
+KNeighborsRegressor,"(14, 'euclidean')","KNeighborsRegressor  (14, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5533980582524272,0.5213988508024568
+SVR,13,SVR(C=13),0.5533980582524272,0.48639637538582364
+SVR,14,SVR(C=14),0.5533980582524272,0.4855537366859541
+SVR,15,SVR(C=15),0.5533980582524272,0.48388108632142
+KNeighborsRegressor,"(15, 'euclidean')","KNeighborsRegressor  (15, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5533980582524272,0.5318087019057893
+KNeighborsRegressor,"(11, 'euclidean')","KNeighborsRegressor  (11, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5501618122977346,0.4756746636711332
+SVR,6,SVR(C=6),0.5501618122977346,0.5062564412466032
+SVR,17,SVR(C=17),0.5501618122977346,0.4779370646976703
+SVR,16,SVR(C=16),0.5501618122977346,0.4810143454303312
+KNeighborsClassifier,14,KNeighborsClassifier(n_neighbors=14),0.5501618122977346,0.6990291262135923
+KNeighborsClassifier,11,KNeighborsClassifier(n_neighbors=11),0.5501618122977346,0.6990291262135923
+AdaBoostClassifier,13,AdaBoostClassifier(n_estimators=13),0.5469255663430421,0.540453074433657
+AdaBoostClassifier,9,AdaBoostClassifier(n_estimators=9),0.5469255663430421,0.540453074433657
+SVR,18,SVR(C=18),0.5469255663430421,0.4751909725797712
+AdaBoostClassifier,12,AdaBoostClassifier(n_estimators=12),0.5469255663430421,0.540453074433657
+AdaBoostClassifier,8,AdaBoostClassifier(n_estimators=8),0.5469255663430421,0.540453074433657
+AdaBoostClassifier,17,AdaBoostClassifier(n_estimators=17),0.5469255663430421,0.540453074433657
+AdaBoostClassifier,5,AdaBoostClassifier(n_estimators=5),0.5469255663430421,0.540453074433657
+SVR,5,SVR(C=5),0.5469255663430421,0.5121208149297158
+SVR,7,SVR(C=7),0.5469255663430421,0.5033450321362788
+AdaBoostClassifier,16,AdaBoostClassifier(n_estimators=16),0.5469255663430421,0.540453074433657
+KNeighborsRegressor,"(13, 'manhattan')","KNeighborsRegressor  (13, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5436893203883495,0.4833304609256812
+SVR,19,SVR(C=19),0.5436893203883495,0.47304435401531425
+KNeighborsClassifier,16,KNeighborsClassifier(n_neighbors=16),0.5436893203883495,0.7508090614886731
+KNeighborsRegressor,"(11, 'chebyshev')","KNeighborsRegressor  (11, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5436893203883495,0.5459359704725989
+SVC,15,SVC(C=15),0.540453074433657,0.6116504854368932
+KNeighborsRegressor,"(14, 'manhattan')","KNeighborsRegressor  (14, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.540453074433657,0.49095172049402286
+SVR,3,SVR(C=3),0.5372168284789643,0.5329639751374742
+SVC,5,SVC(C=5),0.5372168284789643,0.656957928802589
+SVC,13,SVC(C=13),0.5372168284789643,0.598705501618123
+SVR,4,SVR(C=4),0.5372168284789643,0.5202759663407461
+SVC,14,SVC(C=14),0.5339805825242718,0.627831715210356
+SVC,7,SVC(C=7),0.5339805825242718,0.6213592233009708
+SVC,17,SVC(C=17),0.5339805825242718,0.6084142394822006
+KNeighborsRegressor,"(17, 'manhattan')","KNeighborsRegressor  (17, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5339805825242718,0.5204644964782029
+KNeighborsClassifier,15,KNeighborsClassifier(n_neighbors=15),0.5339805825242718,0.7508090614886731
+SVC,6,SVC(C=6),0.5339805825242718,0.6407766990291263
+SVC,16,SVC(C=16),0.5339805825242718,0.6181229773462783
+SVC,18,SVC(C=18),0.5307443365695793,0.6116504854368932
+SVC,4,SVC(C=4),0.5307443365695793,0.6634304207119741
+KNeighborsRegressor,"(15, 'manhattan')","KNeighborsRegressor  (15, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5307443365695793,0.5044516361021215
+KNeighborsRegressor,"(7, 'chebyshev')","KNeighborsRegressor  (7, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5307443365695793,0.49032428505382736
+KNeighborsRegressor,"(18, 'euclidean')","KNeighborsRegressor  (18, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5307443365695793,0.5776199608454193
+KNeighborsRegressor,"(16, 'manhattan')","KNeighborsRegressor  (16, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5307443365695793,0.5117819579288025
+SVC,19,SVC(C=19),0.5275080906148867,0.6148867313915858
+SVR,2,SVR(C=2),0.5275080906148867,0.5579946990087256
+SVC,11,SVC(C=11),0.5275080906148867,0.6084142394822006
+SVC,12,SVC(C=12),0.5275080906148867,0.6084142394822006
+KNeighborsRegressor,"(19, 'manhattan')","KNeighborsRegressor  (19, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5275080906148867,0.5305740078351219
+SVC,9,SVC(C=9),0.5275080906148867,0.6084142394822006
+KNeighborsClassifier,18,KNeighborsClassifier(n_neighbors=18),0.5275080906148867,0.7961165048543689
+KNeighborsClassifier,17,KNeighborsClassifier(n_neighbors=17),0.5275080906148867,0.7572815533980582
+KNeighborsRegressor,"(10, 'chebyshev')","KNeighborsRegressor  (10, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5275080906148867,0.5244660194174757
+SVC,8,SVC(C=8),0.5242718446601942,0.6213592233009708
+KNeighborsRegressor,"(18, 'manhattan')","KNeighborsRegressor  (18, manhattan)    KNeighborsRegressor(metric='manhattan', n_neig...
+Name: model, dtype: object",0.5242718446601942,0.5274082064804827
+KNeighborsRegressor,"(14, 'chebyshev')","KNeighborsRegressor  (14, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5242718446601942,0.5885509543623275
+SVC,10,SVC(C=10),0.5242718446601942,0.6116504854368932
+RandomForestClassifier,1,RandomForestClassifier(max_depth=1),0.5210355987055016,0.7508090614886731
+KNeighborsRegressor,"(17, 'chebyshev')","KNeighborsRegressor  (17, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5210355987055016,0.616443264913047
+KNeighborsRegressor,"(12, 'chebyshev')","KNeighborsRegressor  (12, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.517799352750809,0.5591738583243437
+KNeighborsClassifier,19,KNeighborsClassifier(n_neighbors=19),0.517799352750809,0.7637540453074434
+KNeighborsRegressor,"(17, 'euclidean')","KNeighborsRegressor  (17, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.517799352750809,0.5676756139348944
+SVC,3,SVC(C=3),0.517799352750809,0.6731391585760518
+KNeighborsRegressor,"(16, 'chebyshev')","KNeighborsRegressor  (16, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.517799352750809,0.6121814320388349
+KNeighborsRegressor,"(16, 'euclidean')","KNeighborsRegressor  (16, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5145631067961165,0.5519569174757282
+KNeighborsRegressor,"(19, 'euclidean')","KNeighborsRegressor  (19, euclidean)    KNeighborsRegressor(metric='euclidean', n_neig...
+Name: model, dtype: object",0.5145631067961165,0.5792163085280908
+KNeighborsRegressor,"(15, 'chebyshev')","KNeighborsRegressor  (15, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.5145631067961165,0.6039410284070478
+DecisionTreeRegressor,1,DecisionTreeRegressor(max_depth=1),0.511326860841424,0.6657272106711781
+RandomForestRegressor,1,RandomForestRegressor(max_depth=1),0.511326860841424,0.5947954114346737
+SVC,2,SVC(C=2),0.511326860841424,0.7313915857605178
+DecisionTreeClassifier,1,DecisionTreeClassifier(max_depth=1),0.511326860841424,0.7508090614886731
+AdaBoostClassifier,1,AdaBoostClassifier(n_estimators=1),0.511326860841424,0.7508090614886731
+KNeighborsRegressor,"(13, 'chebyshev')","KNeighborsRegressor  (13, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.511326860841424,0.5768560540778614
+MLPClassifer,"(100, 100, 100, 100, 100)","MLPClassifer  (100, 100, 100, 100, 100)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.5080906148867314,0.912621359223301
+SVR,1,SVR(C=1),0.5048543689320388,0.6204112248881122
+MLPClassifer,"(32, 32, 32, 32)","MLPClassifer  (32, 32, 32, 32)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.5016181229773463,0.7961165048543689
+MLPClassifer,"(100, 100, 100, 100, 100, 100, 100)","MLPClassifer  (100, 100, 100, 100, 100, 100, 100)    MLPClassifier(early_stopping=True,\n          ...
+Name: model, dtype: object",0.5016181229773463,0.7411003236245954
+KNeighborsRegressor,"(18, 'chebyshev')","KNeighborsRegressor  (18, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.4919093851132686,0.633595029765472
+KNeighborsRegressor,"(19, 'chebyshev')","KNeighborsRegressor  (19, chebyshev)    KNeighborsRegressor(metric='chebyshev', n_neig...
+Name: model, dtype: object",0.4886731391585761,0.6428744318640239
+MLPRegressor,"(100, 100, 100, 100, 100, 100, 100)","MLPRegressor  (100, 100, 100, 100, 100, 100, 100)    MLPRegressor(early_stopping=True,\n           ...
+Name: model, dtype: object",0.4563106796116505,0.6708314221497483
+SVC,1,SVC(C=1),0.45307443365695793,0.9255663430420712
+MLPClassifer,"(100, 100, 100, 100)","MLPClassifer  (100, 100, 100, 100)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.44660194174757284,1.0258899676375404
+MLPClassifer,"(32, 32, 32, 32, 32, 32)","MLPClassifer  (32, 32, 32, 32, 32, 32)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.4336569579288026,1.197411003236246
+MLPClassifer,"(100, 100, 100)","MLPClassifer  (100, 100, 100)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.43042071197411,0.8802588996763754
+MLPRegressor,"(32, 32, 32, 32, 32)","MLPRegressor  (32, 32, 32, 32, 32)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.43042071197411,1.3923142318565669
+MLPClassifer,"(32, 32, 32)","MLPClassifer  (32, 32, 32)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.42718446601941745,1.064724919093851
+MLPRegressor,"(10, 10, 10, 10, 10)","MLPRegressor  (10, 10, 10, 10, 10)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.42394822006472493,0.7928439884622281
+MLPRegressor,"(100, 100, 100, 100, 100)","MLPRegressor  (100, 100, 100, 100, 100)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.42071197411003236,1.2364992476066001
+MLPClassifer,"(100, 100, 100, 100, 100, 100)","MLPClassifer  (100, 100, 100, 100, 100, 100)    MLPClassifier(early_stopping=True,\n          ...
+Name: model, dtype: object",0.41423948220064727,1.3527508090614886
+MLPRegressor,"(32, 32, 32, 32)","MLPRegressor  (32, 32, 32, 32)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.4110032362459547,1.3611940087262104
+MLPClassifer,"(32, 32, 32, 32, 32)","MLPClassifer  (32, 32, 32, 32, 32)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.36245954692556637,1.1359223300970873
+MLPRegressor,"(32, 32, 32, 32, 32, 32)","MLPRegressor  (32, 32, 32, 32, 32, 32)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.3592233009708738,1.8503314827806274
+MLPClassifer,"(10, 10, 10, 10, 10, 10)","MLPClassifer  (10, 10, 10, 10, 10, 10)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.31715210355987056,1.4433656957928802
+MLPRegressor,"(100, 100, 100, 100)","MLPRegressor  (100, 100, 100, 100)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.3042071197411003,2.348947089042662
+MLPRegressor,"(10, 10, 10, 10)","MLPRegressor  (10, 10, 10, 10)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.28802588996763756,1.9143456775701684
+MLPClassifer,"(10, 10, 10, 10, 10)","MLPClassifer  (10, 10, 10, 10, 10)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.28802588996763756,2.55663430420712
+MLPClassifer,"(10, 10, 10)","MLPClassifer  (10, 10, 10)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.2686084142394822,1.9838187702265373
+MLPRegressor,"(10, 10, 10)","MLPRegressor  (10, 10, 10)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.26537216828478966,7.04808038628321
+MLPClassifer,"(10, 10, 10, 10)","MLPClassifer  (10, 10, 10, 10)    MLPClassifier(early_stopping=True, hidden_laye...
+Name: model, dtype: object",0.2459546925566343,2.679611650485437
+MLPRegressor,"(100, 100, 100)","MLPRegressor  (100, 100, 100)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.19093851132686085,8.317880937538337
+MLPRegressor,"(32, 32, 32)","MLPRegressor  (32, 32, 32)    MLPRegressor(early_stopping=True, hidden_layer...
+Name: model, dtype: object",0.12297734627831715,17.248775090086067
